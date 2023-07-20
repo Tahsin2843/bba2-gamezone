@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+  font-family: 'Work Sans', sans-serif;
+}
+
+header{
+  box-shadow: 0px 0.2px 2px;
+  padding: 10px 120px;
+  box-shadow: 1px;
+ }
+ nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftSide{
+  display: flex;
+  align-items: center;
+}
+nav img{
+  width: 86px;
+  height: 40px;
+}
+.sectionTitle{
+  font-size: 35px;
+  font-weight: bold;
+}
+.g{
+  color: rgb(238, 87, 112);
+}
+nav>ul{
+  display: flex;
+}
+nav li{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 500px;
+  font-size: 1rem;
+}
+nav ul img{
+  width: 30px;
+  height: 30px;
+}
+
+.section1{
+  display: flex;
+  justify-content: space-between;
+}
+.rightSideImage{
+  display: flex;
+  align-items: center;
+  background-color: rgb(236, 233, 233);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.sec1leftside{
+  position: relative;
+}
+.sec1leftside .background{
+  position: absolute;
+}
+.sec1leftside .leftsidetext{
+  position: relative;
+  padding: 150px 190px;
+}
+.sec1leftside ul {
+  list-style: none;
+  padding-left: 0px;
+  color: gray;
+  
+}
+.sec1leftside ul img{
+  width: 20px;
+}
+.iconsText{
+  padding-left: 10px;
+}
+.section1 h2{
+  font-size: 80px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #F948B2;
+}
+
+.section1 h3{
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.leftsidebuttons{
+  width: 400px;
+}
+.signInButton{
+  font-size: 20px;
+  color: white;
+  background-color: #F948B2;
+  width: 167px;
+  height: 65px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.signInButton:hover{
+  color: #F948B2;
+  background-color: white;
+  border:1px solid #F948B2;
+  transition: .8s;
+}
+.goRogueButton{
+  font-size: 20px;
+  color: white;
+  background-color: #4EC5F7;
+  width: 167px;
+  height: 65px;
+  border: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.goRogueButton:hover{
+  color:#4EC5F7;
+  background-color: white;
+  border:1px solid #4EC5F7;
+  transition: .8s;
+}
+
+.section2{
+  margin-top: 80px;
+  text-align: center;
+}
+.purpleText{
+  color: #F948B2;
+}
+.section2 h5{
+  color: gray;
+}
+.downSec{
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  justify-content: center;
+}
+.section4{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.backImg{
+position: relative;
+left: -100px;
+
+
+}
+.frontImg{
+  position: absolute;
+  bottom: -100px;
+  right: 650px;
+}
+.rightSide{
+  padding-left: 200px;
+  padding-top: 150px;
+}
+.rightSide h6{
+  color: gray;
+}
+
+.section5{
+  justify-content: center;
+  margin-top: 200px;
+  background-color: #ebd2df;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  
+ }
+ .line1buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  position: relative;
+  padding-top: 10px;
+ }
+ 
+ .line1buttons button{
+ width: 243px;
+ height: 80px;
+ position: relative;
+ }
+ .line1buttons button img{
+  padding-top: 8px;
+  position: absolute;
+  left: 5px;
+  top: 2px;
+ }
+.line1buttons .buttonTitle{
+  position: absolute;
+  left: 70px;
+  top: 30px;
+}
+.line1buttons .advGames {
+  left: 70px;
+  top: 20px;
+}
+.line1buttons .eduGames{
+  left: 70px;
+  top: 20px;
+}
+
+ .line2buttons{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 10px;
+ }
+
+ .line2buttons button{
+  width: 243px;
+  height: 80px;
+  position: relative;
+ }
+
+ .line2buttons button img{
+  padding-top: 8px;
+  position: absolute;
+  left: 5px;
+  top: 2px;
+ }
+.line2buttons .buttonTitle{
+  position: absolute;
+  left: 70px;
+  top: 30px;
+}
+.line2buttons .role{
+  left: 50px;
+  top: 20px;
+}
+.line2buttons .music{
+  left: 50px;
+  top: 20px;
+}
+
+
+ .buttonTitle{
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-bottom: 20px;
+ }
+
+.section5 button{
+  border: none;
+  border-radius: 40px;
+  cursor:pointer;
+}
+.section5 button:hover{
+  color:#FF42A5 ;
+  border: 3px solid #FF42A5;
+
+}
+
+
+footer{
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+.remag{
+  display: flex;
+  padding-top: 100px;
+  font-size: 30px;
+  justify-content: center;
+}
+.remag img{
+  display: flex;
+  width: 80px;
+  height: 30px;
+  padding-top: 60px;
+}
+
+footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.ul1{
+  font-size: 28px;
+}
+.ul2{
+  font-size: 20px;
+}
+footer ul img{
+  width: 100px;
+  height: 100px;
+}
+.insta{
+  height: 80px;
+  width: 80px;
+  padding-top: 10px;
+}
+.utube{
+  width: 140px;
+  height: 120px;
+  margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+  header{
+    width: auto;
+    display: flex;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    text-align: center;
+  }
+  nav{
+    flex-direction: column;
+  }
+  nav ul{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .section1{
+    flex-direction: column-reverse;
+  }
+  .sec1rightside img{
+   
+    width: 80%;
+  }
+  .background{
+    width: 100%;
+  }
+  .leftsidetext{
+    width: 80%;
+    height: 10%;
+  }
+  .leftsidetext button{
+    flex-direction: row;
+    width: auto ;
+  }
+  .section2 img{ 
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .section5 buttons{
+    flex-direction: column;
+  }
+
+}
